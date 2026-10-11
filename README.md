@@ -35,29 +35,6 @@ Features
 • Toast notifications for create, update, and delete actions
 • Loading spinner state while requests are in flight
 
-Project Structure
-
-`
-Book-Store/
-├── backend/
-│   ├── config.js              # Port and MongoDB connection string
-│   ├── index.js               # Express app entry point
-│   ├── models/
-│   │   └── bookModel.js       # Mongoose Book schema
-│   ├── routes/
-│   │   └── bookRoutes.js      # CRUD route handlers
-│   └── package.json
-└── frontend/
-    ├── Dockerfile
-    ├── eslint.config.js
-    ├── index.html
-    ├── package.json
-    └── src/
-        ├── App.jsx            # Route definitions
-        ├── assets/            # hero.png, icons
-        ├── components/        # BackButton, Spinner, BookModal
-        └── pages/             # Home, CreateBook, ShowBook, EditBook, DeleteBook
-`
 
 Data Model
 
